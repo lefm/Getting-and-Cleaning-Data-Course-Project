@@ -22,7 +22,7 @@ There´s also a codebook (CodeBook.md) describing the variables, the data, and a
 
 The Tidy Data Sets available are:
 * subset_data.csv 
-    The measurements on the mean and standard deviation for each measurement, added with subject and activity with descriptive names
+The measurements on the mean and standard deviation for each measurement, added with subject and activity with descriptive names
 
-* average_data.csv
-    The average of each variable for each activity and each subject from the subset_data
+* average_data.csv 
+The average of each variable for each activity and each subject from the subset_data
