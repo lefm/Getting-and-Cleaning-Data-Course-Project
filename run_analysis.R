@@ -52,3 +52,7 @@ colnames(subset_data) <- sub("BodyBody", "Body", colnames(subset_data))
 # with the average of each variable for each activity and each subject.
 average_data <- group_by(subset_data, subject, activity)
 average_data <- summarize_each(average_data, funs(mean))
+
+# Writing tidy data sets to csv files:
+write.csv(subset_data, file = "subset_data.csv", row.names = FALSE)
+write.csv(average_data, file = "average_data.csv", row.names = FALSE)
