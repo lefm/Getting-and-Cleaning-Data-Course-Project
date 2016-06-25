@@ -54,5 +54,5 @@ average_data <- group_by(subset_data, subject, activity)
 average_data <- summarize_each(average_data, funs(mean))
 
 # Writing tidy data sets to csv files:
-write.csv(subset_data, file = "subset_data.csv", row.names = FALSE)
-write.csv(average_data, file = "average_data.csv", row.names = FALSE)
+write.table(subset_data, file = "subset_data.txt", row.names = FALSE)
+write.table(average_data, file = "average_data.txt", row.names = FALSE)
