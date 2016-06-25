@@ -21,6 +21,6 @@ This repo contains a script called run_analysis.R that does the following:
 There´s also a codebook (CodeBook.md) describing the variables, the data, and any transformations or work performed to clean up the data.
 
 The Tidy Data Sets available are:
-* subset_data.csv : The measurements on the mean and standard deviation for each measurement, added with subject and activity with descriptive names
+* subset_data.txt : The measurements on the mean and standard deviation for each measurement, added with subject and activity with descriptive names
 
-* average_data.csv : The average of each variable for each activity and each subject from the subset_data
+* average_data.txt : The average of each variable for each activity and each subject from the subset_data
